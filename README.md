@@ -1,0 +1,5 @@
+Criar container Docker Postgres com banco queries_challenge para realizar o desafio
+
+```cmd
+docker run --name ignite-challenge-database-queries -e POSTGRES_DB=queries_challenge -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
